@@ -8,13 +8,19 @@ import { LoginComponent } from './login/login.component';
 import { StoreComponent } from './store/store.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { ComponentsComponent } from './components/components.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     LoginComponent,
-    StoreComponent
+    StoreComponent,
+    ComponentsComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

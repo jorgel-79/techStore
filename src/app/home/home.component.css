@@ -1,7 +1,3 @@
-.navbar {
-    background-image: url(../img/cielo.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 10%;
+div {
+    background-color: aqua;
 }
