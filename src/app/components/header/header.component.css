@@ -2,12 +2,20 @@
     
     background-size: cover;
     min-height: 10px;
+    font-size: 140%;
 }
 
 .header .navbar {
-    background-color: transparent !important;
+    opacity: 0.5;
   }
 
- .logo {
-     width: 50px;
+.logo {
+     width: 30%;
       } 
+
+.nav-link {
+    margin:3px 25px 3px 50px;
+}
+
+ 
+
