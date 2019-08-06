@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  httpBase:"store.com.co:3000"
 };

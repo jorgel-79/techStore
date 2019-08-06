@@ -1,8 +1,9 @@
 <div class="container">
-    <div class="row">
-        <div title="Login">Login</div>
-        <div>
-            
-        </div>
-    </div>
-</div>
+    <h1>Iniciar sesión</h1>
+    
+    <form class="form" (submit)="logIn(username.value, password.value)">
+      <input type="text" #username name="username" placeholder="Username">
+      <input type="password" #password name="password" placeholder="Password">
+      <button  type="submit" id="login-button">Login</button>
+    </form>
+  </div>

@@ -11,8 +11,14 @@ import { environment } from '../environments/environment';
 import { ComponentsComponent } from './components/components.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { HttpClientModule } from "@angular/common/http";
+
+import { LoginService } from './login/login.service';
 
 @NgModule({
+
+  
+
   declarations: [
     AppComponent,
     HomeComponent,
@@ -21,13 +27,19 @@ import { FooterComponent } from './components/footer/footer.component';
     ComponentsComponent,
     HeaderComponent,
     FooterComponent
+    
   ],
+
+
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    HttpClientModule
   ],
-  providers: [],
+  providers: [LoginService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
