@@ -1,6 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-    background-image: url('./assets/img/paisaje.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+
+.card-deck{
+  display: inline-block !important;
+}
+
+.card-deck .card {
+  display: inline-block;
+}
+
+
+.col-md-3 {
+  display: inline-block;
 }
